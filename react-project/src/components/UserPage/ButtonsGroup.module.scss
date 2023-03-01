@@ -1,0 +1,22 @@
+
+.buttonsContainer {
+    display: flex;
+justify-content:space-between;
+    position: relative;
+    align-items: flex-start;
+    height: 40px;
+            top: 90px;
+            margin-left: 45px;
+           
+.buttonsStyle {
+
+color: black;
+border: 1px solid black;
+&:hover {
+    border: 1px solid darkred;
+    background-color: bisque;
+}
+}
+}
+
+

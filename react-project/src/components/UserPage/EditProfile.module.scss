@@ -1,0 +1,15 @@
+.addButon {
+
+    position: relative;
+    left: 950px;
+    bottom: 20px;
+    
+    .buttonColor {
+        color:black;
+        border: 1px solid black;
+        &:hover {
+            border: 1px solid darkred;
+            background-color: bisque;
+        }
+    }
+}

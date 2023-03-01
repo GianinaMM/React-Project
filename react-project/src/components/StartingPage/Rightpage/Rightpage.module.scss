@@ -1,0 +1,201 @@
+.rightContent {
+    background-color: bisque;
+    flex-direction: column;
+    padding: 10px;
+    overflow: auto;
+    position: fixed;
+    box-shadow: 5px 5px 5px 8px #888;
+    right: 0;
+    border: 1px solid black;
+    // max-height: 100%;
+    margin-top: 80px;
+    max-height: 650px;
+    width: 400px;
+
+    .contactSection {
+   
+        .someAdvertisement {
+            font-size: 20px;
+            padding-left: 30px;
+            color: rgb(183, 94, 64);
+            padding-top: 10px;
+            &:hover {
+                background-color: darksalmon;
+            }
+        }
+
+        .advertisementStyle{
+            height: 120px;
+            width: 170px;
+            padding-left: 30px;
+            box-shadow: 5px 5px 5px 5px #888;
+            margin-bottom: 30px;
+            margin-left: 30px;
+           
+        }
+        .advertisementPhoto {
+            color: darkred;
+            cursor: pointer;
+            margin-left: 20px;
+            font-style: italic;
+            text-decoration: underline;
+           position: absolute;
+           margin-top: 45px;
+        }
+    }
+}
+
+
+.contactPictures {
+
+display:flex;
+    .friendRequest {
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: rgb(197, 197, 196);
+        .seeSection {
+            margin-left: 90px;
+            color: darkred;
+            cursor: pointer;
+            font-style: italic;
+        }
+        .friendR {
+margin-top: 15px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+        }
+    }
+    .buttonStyle{
+    margin-left: 15px;
+        bottom: 25px;
+        background-color: rgb(183, 94, 64);
+        &:hover {
+            background-color: chocolate;
+        }
+    }
+}
+
+// contactPictures {
+// display: flex;
+    .birthday {
+        margin-top: 20px;
+        padding-left: 32px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: rgb(183, 94, 64);
+        &:hover {
+            background-color: darksalmon;
+        }
+    }
+    .birthdayIcon {
+        color: crimson;
+        margin-left: 20px;
+        margin-top: 5px
+    }
+    .textDecoration {
+        -webkit-text-decoration: solid;
+        text-decoration: solid;
+color: black;
+font-style: italic;
+font-size: 17px;
+margin-top: 25px;
+// margin-bottom: 10px;
+
+    }
+
+    .contactPictures {
+
+        .constactStyle {
+            margin-top: 20px;
+            padding-left: 32px;
+            font-size: 20px;
+            display: flex;
+            color: rgb(183, 94, 64);
+            margin-bottom: 5px;
+
+            .cameraIcon {
+                margin-left: 150px;
+                margin-right: 20px;
+                color: crimson;
+                &:hover {
+                    color: chocolate;
+                    cursor: pointer;
+                }
+            }
+
+            .searchIcon {
+                color: crimson;
+                cursor: pointer;
+&:hover {
+    color: chocolate
+}
+            }
+            .dotsStyle {
+                margin-left: 20px;
+                color: crimson;
+                cursor: pointer;
+                &:hover {
+                    color:chocolate;
+                }
+                
+    
+                }
+            
+        }
+
+    }
+
+
+    .contactPictures {
+       display: flex;
+      
+       
+        .firstContact {
+            border-radius: 50%;
+  width: 30px;
+  flex-shrink: 1;
+ 
+//   margin-left: 25px;
+  margin: 15px;
+  border: 1px solid black;
+  position: relative;
+  cursor: pointer;
+
+        }
+        .greenDot {
+            width: 10px;
+            position: relative;
+            right: 90px;
+           top: 35px;
+            height: 10px;
+
+        }
+
+        .contactStyle {
+            margin-top: 17px;
+
+        }
+        &:hover {
+            background-color: darksalmon;
+           }
+    }
+    @media screen and (max-width: 800px) {
+        .rightContent{
+            width: 200px;
+       }
+
+       .contactPictures {
+        align-content: flex-start;
+       }
+     }
+
+    @media screen and (max-width: 600px) {
+        .rightContent{
+         display: none;
+       }
+     }
+
+  

@@ -1,0 +1,137 @@
+.mainPost {
+    display: flex;
+    justify-content: space-between;
+   
+    border: 1px solid black;
+    flex-direction: column;
+    width:  40rem;
+    margin: 15px;
+    position: relative;
+    margin-top: 80px;
+  
+    .userInfo{
+justify-content: space-between;
+        display: flex;
+       
+        .profilePictureImg {
+            height: 3rem;
+            width: auto;
+            border-radius: 50%;
+        }
+        .contextMenu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            text-align: center;
+           
+border-radius: 50%;  
+      }
+      
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .imageWrapper {
+            position: relative;
+            .mainPostImage {
+                max-width: 100%;
+                display: block;
+            
+            }
+            .infoIcon {
+                position: absolute;
+                right: 3rem;
+                bottom: -1rem;
+                color: rgb(59, 54, 54);
+                &:hover {
+                   color: crimson;
+                }
+
+            }
+        }
+        .description {
+text-align: center; 
+
+    }
+        
+    }
+
+    .reacts {
+        display: flex;
+        justify-content: space-between;
+
+        .likesNumber, .commentsNumber {
+            display: flex;
+            
+            .likeIcon{
+                margin-left: 20px;
+                color: rgb(113, 41, 56);
+            }
+            .shareIcon{
+                margin-right: 20px;
+                color: rgb(113, 41, 56);
+            }
+           
+        }
+    }
+
+    .reactsActions {
+        display: flex;
+        justify-content: space-between;
+
+        .reaction {
+            display: flex;
+           color: rgb(113, 41, 56);
+           margin: 20px;
+            cursor: pointer;
+            &.crimson {
+                color: crimson;
+            }
+        }
+
+    }
+    // .hr {
+    //     color: crimson;
+    //     border: 1px solid red;
+    // }
+
+    .commentContainer {
+
+        .insertCommentField{
+
+            margin-left: 20px;
+          
+.inputStyle{
+    width: 600px;
+    height: 35px;
+    border-radius: 8%;
+    background-color: antiquewhite;
+    border: 1px solid darksalmon;
+    &:focus {
+        box-shadow: 2px 2px 2px 2px bisque;
+        
+    }
+}
+        }
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mainPost{
+    width: 30rem;
+   justify-content: flex-start;
+   }
+ }
+
+@media screen and (max-width: 600px) {
+    .mainPost{
+    width: 30rem;
+   }
+}

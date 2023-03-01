@@ -1,0 +1,65 @@
+.leftContent {
+  background-color: bisque;
+  flex-direction: column;
+  padding: 10px;
+  overflow: auto;
+  position: fixed;
+  float: left;
+  box-shadow: 5px 5px 5px 5px #888;
+  left: 0;
+  border: 1px solid black;
+margin-top: 80px;
+width: 400px;
+max-height: 650px;
+  .menuList {
+    margin-right: 30px;
+
+.textStyle {
+display: flex;
+font-size: 18px;
+  color: black;
+  margin-top: 15px;
+  cursor: pointer;
+  &:hover {
+    background-color: darksalmon;
+  }
+
+  
+  .iconStyle{
+    color:crimson;
+    margin-top: 15px;
+  }
+  .profilePicture {
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+}
+  }
+}
+
+.favoriticon {
+  color: red;
+}
+
+.card {
+  margin-top: 15px;
+}
+
+.postIcon {
+  color:crimson;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftContent{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .leftContent{
+   display: none;
+ }
+}
+

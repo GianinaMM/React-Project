@@ -1,0 +1,17 @@
+.coverNavigation {
+position: relative;
+    left: 10px;
+    top: 25px;
+    &:hover {
+        background-color: bisque;
+    }
+    
+  
+    .iconStyle{
+background-color: floralwhite;
+        color: black;
+        &:hover {
+            background-color: bisque;
+        }
+    }
+}
