@@ -47,11 +47,11 @@ export function Newsfeed(props) {
 
     if (isLiked) {
       setLikes((prevState) => {
-        return ++prevState;
+        return --prevState;
       });
     } else {
       setLikes((prevState) => {
-        return --prevState;
+        return ++prevState;
       });
     }
   };
@@ -63,11 +63,11 @@ export function Newsfeed(props) {
 
     if (isShared) {
       setShares((prevState) => {
-        return ++prevState;
+        return --prevState;
       });
     } else {
       setShares((prevState) => {
-        return --prevState;
+        return ++prevState;
       });
     }
   };
